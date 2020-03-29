@@ -9,6 +9,7 @@ import DAO.UsuarioDAO;
 import Logic.Usuario;
 
 public class MongodbUsuarioDAO implements UsuarioDAO {
+	
 	// MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://bd2mongo:Pml8V8QUQUVyw5yzSlIjUfkYTdmArlCiUyW7PC20wc4ZvucC0Zx4XAdckoqNw2IRpjOlYh33cXczqfoS44Pqkg==@bd2mongo.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"));
 	private MongoClient mc;
 	private DB DataBase;
