@@ -35,7 +35,7 @@ public class Principal implements DAOManager {
 		if(Canciones == null) {
 			Canciones = new MongodbCancionDAO(mc,DataBase, (MongoCollection) DataBase.getCollection("Cancion"));
 		}
-		
+		//loco
 		return Canciones;
 	}
 
