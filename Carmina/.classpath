@@ -4,5 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="Lib/jaco-mp3-player-0.9.3.jar"/>
 	<classpathentry kind="lib" path="Lib/mongo-java-driver-3.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ariel Ortega Mejía/Documents/Ariel/PUCMM/Año 3/Base de datos II/JavaProj/MongoJava/NefAnimacion_V2.1_jdk18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ariel Ortega Mejía/Documents/Ariel/PUCMM/Año 3/Base de datos II/JavaProj/MongoJava/RSScaleLabel.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
