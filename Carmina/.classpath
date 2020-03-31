@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
@@ -9,3 +10,15 @@
 	<classpathentry kind="lib" path="C:/Users/r_rok/OneDrive/Documents/Documentos/Java/Librerias de Java/JLayer1.0.1/jl1.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="Lib/jaco-mp3-player-0.9.3.jar"/>
+	<classpathentry kind="lib" path="Lib/mongo-java-driver-3.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ariel Ortega Mejía/Documents/Ariel/PUCMM/Año 3/Base de datos II/JavaProj/MongoJava/NefAnimacion_V2.1_jdk18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ariel Ortega Mejía/Documents/Ariel/PUCMM/Año 3/Base de datos II/JavaProj/MongoJava/RSScaleLabel.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
+>>>>>>> branch 'master' of https://github.com/waterpolord/ProyectofinalBD2.git
