@@ -2,6 +2,8 @@ package Logic;
 
 import java.util.ArrayList;
 
+import com.mongodb.BasicDBObject;
+
 public class Cancion {
 	
 	private String Nombre;
@@ -70,6 +72,17 @@ public class Cancion {
 		this.url = url;
 	}
 	
-	
+	public BasicDBObject toBDBObjectCancion() {
+		BasicDBObject dbbo = new BasicDBObject();
+		 
+		 dbbo.append("Nombre",this.getNombre());
+	     dbbo.append("Artistas",this.getArtistas());
+	     dbbo.append("Genero",this.getGenero());
+	     dbbo.append("Duracion",this.getDuracion());
+	     dbbo.append("Album",this.getAlbum());
+	     dbbo.append("url",this.getUrl());
+	    
+		return dbbo;
+	}
 	
 }

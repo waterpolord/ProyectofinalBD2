@@ -1,17 +1,20 @@
 package DAO;
 
+import java.util.ArrayList;
+
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
 import Logic.Usuario;
+import jaco.mp3.a.A;
 
 public interface DAO<tipo,id> {
-	void insertar(tipo x);
+	void insertar(tipo x) throws DAOException;
 	
-	void modificar(tipo x);
+	void modificar(tipo x) throws DAOException;
 	
-	void eliminar(tipo x);
+	void eliminar(tipo x) throws DAOException;
 	
-	List obtenerTodos();
+	ArrayList<?> obtenerTodos() throws DAOException;
 	
-	tipo obtener(id clave);
+	tipo obtener(id clave) throws DAOException;
 }

@@ -2,7 +2,7 @@ package DAO;
 
 public interface DAOManager {
 	
-	CancionDAO getCancionDAO();
+	CancionDAO getCancionDAO() throws DAOException;
 	UsuarioDAO getUsuarioDAO();
 
 }
