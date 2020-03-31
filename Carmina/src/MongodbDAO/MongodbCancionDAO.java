@@ -45,7 +45,7 @@ public class MongodbCancionDAO implements CancionDAO{
 	}
 
 	@Override
-	public ArrayList<Cancion> obtenerTodos() {
+	public ArrayList<Cancion> obtenerTodos(){
 		
 			ArrayList<Cancion> canciones = new ArrayList<Cancion>();
 			com.mongodb.Cursor cursor = collection.find();
